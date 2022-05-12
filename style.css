@@ -15,6 +15,9 @@ td{
     text-align: left;
 }
 .table_style {
+    color: brown;
+}
+div.table_style {
     color:wheat;
     background-color:darkblue;
 }
