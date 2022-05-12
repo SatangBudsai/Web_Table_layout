@@ -5,11 +5,26 @@ table,th,td{
 table {
     width: 100%;
 }
-th {
-    padding: 10px;
-    text-align: center;
-    height: 70px;
+th,td {
+    padding: 5px;
+    height: 100px;
 }
+
 h2{
     text-align: center;
+}
+img {
+    height: 100%;
+    object-fit: cover;    
+}
+th img{
+    border-radius: 10px;
+    float: left;
+}
+td img{
+    filter: blur(2px);
+}
+.img_camt{
+    border-radius: 0px;
+    float: right;
 }
