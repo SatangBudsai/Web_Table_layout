@@ -1,16 +1,39 @@
-table,th,td{
+table,
+th,
+td {
     border: 3px solid red;
-    
 }
+
 table {
     width: 100%;
     padding: 3px;
 }
-th,td {
-    color:dodgerblue;
-    text-align: center;
+
+th,
+td {
+    color: dodgerblue;
+    text-align: left;
     height: 70px;
+    padding: 20px;
 }
+
+th {
+    text-align: center;
+}
+
+td:nth-child(1) {
+    text-align: center;
+}
+
 .set td {
     height: 200px;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+h2 {
+    text-align: center;
 }
