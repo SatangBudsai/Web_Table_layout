@@ -1,23 +1,16 @@
 table,th,td{
-    border: 1px solid black;
-    border-collapse: collapse;
+    border: 3px solid red;
+    
 }
 table {
     width: 100%;
+    padding: 3px;
 }
-th {
-    padding: 10px;
+th,td {
+    color:dodgerblue;
     text-align: center;
     height: 70px;
 }
-td{
-    padding: 10px;
-    text-align: left;
-}
-.table_style {
-    color: brown;
-}
-div.table_style {
-    color:wheat;
-    background-color:darkblue;
+.set td {
+    height: 200px;
 }
