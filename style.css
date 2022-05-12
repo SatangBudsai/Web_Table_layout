@@ -2,6 +2,7 @@ table,
 th,
 td {
     border: 3px solid red;
+    border-spacing: 10px;
 }
 
 table {
@@ -25,7 +26,7 @@ td:nth-child(1) {
     text-align: center;
 }
 
-.set td {
+tr:nth-child(2) {
     height: 200px;
 }
 
