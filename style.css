@@ -1,23 +1,40 @@
-table,th,td{
-    border: 1px solid black;
-    border-collapse: collapse;
+table,
+th,
+td {
+    border: 3px solid red;
+    border-spacing: 10px;
 }
+
 table {
     width: 100%;
+    padding: 3px;
 }
-th {
-    padding: 10px;
-    text-align: center;
-    height: 70px;
-}
-td{
-    padding: 10px;
+
+th,
+td {
+    color: dodgerblue;
     text-align: left;
+    height: 70px;
+    padding: 20px;
 }
-.table_style {
-    color: brown;
+
+th {
+    text-align: center;
 }
-div.table_style {
-    color:wheat;
-    background-color:darkblue;
+
+td:nth-child(1) {
+    text-align: center;
+}
+
+tr:nth-child(2) {
+    height: 200px;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+h2 {
+    text-align: center;
 }
