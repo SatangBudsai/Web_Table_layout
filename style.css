@@ -1,6 +1,6 @@
 table,th,td{
     border: 3px solid red;
-    
+    border-spacing: 10px;
 }
 table {
     width: 100%;
@@ -11,6 +11,6 @@ th,td {
     text-align: center;
     height: 70px;
 }
-.set td {
-    height: 200px;
+tr:nth-child(2) {
+    height: 250px;
 }
