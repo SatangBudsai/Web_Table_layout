@@ -14,3 +14,7 @@ td{
     padding: 10px;
     text-align: left;
 }
+.table_style {
+    color:wheat;
+    background-color:darkblue;
+}
