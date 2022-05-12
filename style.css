@@ -5,19 +5,26 @@ table,th,td{
 table {
     width: 100%;
 }
-th {
-    padding: 10px;
+th,td {
+    padding: 5px;
+    height: 100px;
+}
+
+h2{
     text-align: center;
-    height: 70px;
 }
-td{
-    padding: 10px;
-    text-align: left;
+img {
+    height: 100%;
+    object-fit: cover;    
 }
-.table_style {
-    color: brown;
+th img{
+    border-radius: 10px;
+    float: left;
 }
-div.table_style {
-    color:wheat;
-    background-color:darkblue;
+td img{
+    filter: blur(2px);
+}
+.img_camt{
+    border-radius: 0px;
+    float: right;
 }
